@@ -1,4 +1,4 @@
-15815914375935696
+15820577572637927
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49069,6 +49069,27 @@ ESP8266 WiFi microcontroller
 0
 16
 16
+moje
+8awg_wirepad
+
+
+0
+17
+1
+moje
+busbar1
+
+
+0
+1
+1
+moje
+LRMAP5930x
+
+
+0
+6
+4
 MountingEquipment
 DINRailAdapter_3xM3_PhoenixContact_1201578
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1201578&library=usen&tab=1
