@@ -1,4 +1,4 @@
-update=15.5.2019 21:42:11
+update=30.6.2019 20:33:06
 version=1
 last_client=kicad
 [general]
@@ -38,7 +38,7 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.25
+TrackWidth1=0.2
 TrackWidth2=0.2
 TrackWidth3=0.3
 TrackWidth4=0.5
@@ -80,3 +80,15 @@ SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[pcbnew/Netclasses]
+[pcbnew/Netclasses/1]
+Name=high voltage
+Clearance=0.3
+TrackWidth=0.2
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
