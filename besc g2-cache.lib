@@ -742,6 +742,21 @@ X PC1 9 -700 -200 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Mechanical_Fiducial
+#
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
 # Mechanical_MountingHole_Pad
 #
 DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
@@ -824,7 +839,7 @@ S -200 -200 200 200 0 1 10 f
 X IN 1 -300 100 100 R 50 50 0 1 W
 X GND 2 0 -300 100 U 50 50 0 1 W
 X EN 3 -300 0 100 R 50 50 0 1 I
-X NC 4 200 0 100 L 50 50 0 1 N N
+X NC 4 100 -300 100 U 50 50 0 1 N
 X OUT 5 300 100 100 L 50 50 0 1 w
 ENDDRAW
 ENDDEF

@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date "2019-03-28"
+Title "BESC Gen 2"
+Date "14.7.2019"
 Rev "init"
-Comp ""
+Comp "e.pavlin.si"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -375,4 +375,70 @@ Wire Wire Line
 Wire Wire Line
 	8450 2150 8750 2150
 Connection ~ 8750 2150
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D6CCC37
+P 9800 3800
+F 0 "FID1" H 9885 3846 50  0000 L CNN
+F 1 "Fiducial" H 9885 3755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 9800 3800 50  0001 C CNN
+F 3 "~" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D6CD10F
+P 9800 4050
+F 0 "FID2" H 9885 4096 50  0000 L CNN
+F 1 "Fiducial" H 9885 4005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 9800 4050 50  0001 C CNN
+F 3 "~" H 9800 4050 50  0001 C CNN
+	1    9800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5D6CD3DE
+P 9800 4300
+F 0 "FID3" H 9885 4346 50  0000 L CNN
+F 1 "Fiducial" H 9885 4255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 9800 4300 50  0001 C CNN
+F 3 "~" H 9800 4300 50  0001 C CNN
+	1    9800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5D6CF19D
+P 10400 3800
+F 0 "FID4" H 10485 3846 50  0000 L CNN
+F 1 "Fiducial" H 10485 3755 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 10400 3800 50  0001 C CNN
+F 3 "~" H 10400 3800 50  0001 C CNN
+	1    10400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5D6CF1A3
+P 10400 4050
+F 0 "FID5" H 10485 4096 50  0000 L CNN
+F 1 "Fiducial" H 10485 4005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 10400 4050 50  0001 C CNN
+F 3 "~" H 10400 4050 50  0001 C CNN
+	1    10400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5D6CF1A9
+P 10400 4300
+F 0 "FID6" H 10485 4346 50  0000 L CNN
+F 1 "Fiducial" H 10485 4255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 10400 4300 50  0001 C CNN
+F 3 "~" H 10400 4300 50  0001 C CNN
+	1    10400 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
