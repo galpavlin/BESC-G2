@@ -130,9 +130,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 1600 5000 1550
 $Comp
-L Regulator_Linear:LP5907MFX-3.3 U12
+L besc-g2-rescue:LP5907MFX-3.3-Regulator_Linear U12
 U 1 1 5DBF5F54
 P 6250 1750
+AR Path="/5DBF5F54" Ref="U12"  Part="1" 
+AR Path="/5DBE359C/5DBF5F54" Ref="U12"  Part="1" 
 F 0 "U12" H 6250 2117 50  0000 C CNN
 F 1 "LP5907MFX-3.3" H 6250 2026 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6250 2100 50  0001 C CNN

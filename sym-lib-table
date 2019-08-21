@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name besc-g2-rescue)(type Legacy)(uri "${KIPRJMOD}/besc g2-rescue.lib")(options "")(descr ""))
+)
