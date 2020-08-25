@@ -1,0 +1,1 @@
+Here are HW config files that you can merge with current version of VESC software. Only change in "conf_general.h" is choosing BESC-G2 files for hwconf.

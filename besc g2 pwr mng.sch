@@ -130,7 +130,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 1600 5000 1550
 $Comp
-L besc-g2-rescue:LP5907MFX-3.3-Regulator_Linear U12
+L besc-g2-rescue:LP5907MFX-3.3-Regulator_Linear-besc-g2-rescue U12
 U 1 1 5DBF5F54
 P 6250 1750
 AR Path="/5DBF5F54" Ref="U12"  Part="1" 
@@ -1280,7 +1280,7 @@ F 3 "~" H 5950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L moje:LTC7801 IC1
+L besc-g2-rescue:LTC7801-moje IC1
 U 1 1 5CDAFA6C
 P 4500 4850
 F 0 "IC1" H 4475 6165 50  0000 C CNN
